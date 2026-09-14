@@ -19,14 +19,12 @@
 
     <dependencies>
 
-        <!-- Conector MySQL -->
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <version>9.4.0</version>
         </dependency>
 
-        <!-- Librería adicional solicitada en la evaluación -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
@@ -39,7 +37,6 @@
         <finalName>myconstruction-app</finalName>
 
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
@@ -48,7 +45,6 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 
